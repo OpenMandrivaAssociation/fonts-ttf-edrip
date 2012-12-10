@@ -47,3 +47,10 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/edrip > %{buildroot}%{_xfontdir}/TTF/edrip
 
 
 
+
+
+%changelog
+* Fri Jul 22 2011 Sergey Zhemoitel <serg@mandriva.org> r6-1mdv2012.0
++ Revision: 690968
+- imported package fonts-ttf-edrip
+
