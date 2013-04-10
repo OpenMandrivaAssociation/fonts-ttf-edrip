@@ -13,7 +13,11 @@ BuildArch: noarch
 BuildRequires: freetype-tools
 
 %description
-Edrip font is a contrast sans-serif font. It is based on the Teams font released on 2000 by TopTeam Co. which can be found in Debian: http://packages.debian.org/sarge/t1-teams. The font is distributed under the terms of SIL Open Font License. Up to now this font contains symbols for Cyrillic and basic Latin alphabets.
+Edrip font is a contrast sans-serif font. It is based on the Teams font
+released on 2000 by TopTeam Co. which can be found in Debian:
+http://packages.debian.org/sarge/t1-teams. The font is distributed under the
+terms of SIL Open Font License. Up to now this font contains symbols for
+Cyrillic and basic Latin alphabets.
 
 %prep
 %setup -q -c -n %{pkgname}-%{version}
