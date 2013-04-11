@@ -3,12 +3,11 @@
 Summary: contrast sans-serif font
 Name: fonts-ttf-edrip
 Version: r6
-Release: %mkrel 1
+Release: 2
 License: OFL
 Group: System/Fonts/True type
 URL: http://code.google.com/p/edrip/
 Source0: http://edrip.googlecode.com/files/%{pkgname}-%{version}.tar.xz
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: freetype-tools
 
@@ -25,8 +24,6 @@ Cyrillic and basic Latin alphabets.
 %build
 
 %install
-%__rm -rf %{buildroot}
-
 %__mkdir_p %{buildroot}%{_xfontdir}/TTF/edrip
 
 %__install -m 644 *.ttf %{buildroot}%{_xfontdir}/TTF/edrip
@@ -36,9 +33,6 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/edrip > %{buildroot}%{_xfontdir}/TTF/edrip
 %__mkdir_p %{buildroot}%_sysconfdir/X11/fontpath.d/
 %__ln_s ../../..%{_xfontdir}/TTF/edrip \
     %{buildroot}%_sysconfdir/X11/fontpath.d/ttf-edrip:pri=50
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
