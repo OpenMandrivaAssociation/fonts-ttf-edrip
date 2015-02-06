@@ -3,7 +3,7 @@
 Summary: contrast sans-serif font
 Name: fonts-ttf-edrip
 Version: r6
-Release: 2
+Release: 3
 License: OFL
 Group: System/Fonts/True type
 URL: http://code.google.com/p/edrip/
