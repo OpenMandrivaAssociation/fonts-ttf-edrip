@@ -6,7 +6,7 @@ Version: r6
 Release: 3
 License: OFL
 Group: System/Fonts/True type
-URL: http://code.google.com/p/edrip/
+URL: https://code.google.com/p/edrip/
 Source0: http://edrip.googlecode.com/files/%{pkgname}-%{version}.tar.xz
 BuildArch: noarch
 BuildRequires: freetype-tools
